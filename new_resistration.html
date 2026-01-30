@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Student Registration Form</title>
+
+  <style>
+    body {
+      background-color: #e6f2ff;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+
+    .container {
+      width: 500px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 12px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 80px;
+    }
+
+    .buttons {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    button {
+      padding: 8px 15px;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <form action="" method="post">
+
+    <fieldset>
+      <legend><h2>Student Registration for Internship</h2></legend>
+
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="fullname" required placeholder="Enter your full name">
+
+      <label for="course">Course</label>
+      <select id="course" name="course" required>
+        <option value="">Select course</option>
+        <option>B.Tech</option>
+        <option>B.Com</option>
+        <option>BCA</option>
+      </select>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="example@email.com">
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="10-digit number">
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="college">College Name</label>
+      <input type="text" id="college" name="college" required>
+
+      <label for="year">Year</label>
+      <select id="year" name="year" required>
+        <option value="">Select year</option>
+        <option>1st Year</option>
+        <option>2nd Year</option>
+        <option>3rd Year</option>
+        <option>4th Year</option>
+      </select>
+
+      <label for="about">About Yourself</label>
+      <textarea id="about" name="about" required></textarea>
+
+      <label for="reason">Why do you want to do this internship?</label>
+      <textarea id="reason" name="reason" required></textarea>
+
+      <label>
+        <input type="checkbox" name="agree" required>
+        I confirm that the above details are correct
+      </label>
+
+      <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+
+    </fieldset>
+
+  </form>
+</div>
+
+</body>
+</html>
