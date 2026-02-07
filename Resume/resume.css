@@ -1,4 +1,49 @@
 .header-image {
-    background-image: url(https://contentstatic.techgig.com/thumb/msid-113547615,width-800,resizemode-4/JavaScript-vulnerabilities-that-you-should-know-as-a-coder.jpg?53348);
+    height: 400px;
+    width: 100%;
+    background-image: url(https://wallpapercat.com/w/full/c/5/e/5823605-2920x1640-desktop-hd-boy-programmer-background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+   
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.nav-list {
+    display: inline-block;
+    color: white;
+    text-align: center;
+
+    text-decoration: none;
+
+}
+
+.nav-list a {
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.nav-list a:hover {
+    background-color: rgb(249, 222, 130);
+    color: rgb(255, 0, 0);
+    border-radius: 50%;
+    opacity: 0.8;
+
+}
+
+.nav-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 
 }
