@@ -40,54 +40,66 @@ body {
     transition: all 0.2s ease-in-out;
     border-radius: 20px;
     padding: 8px;
-    
-   
+
+
 }
 
 #nav-list li a:hover {
     color: rgb(255, 55, 0);
-    transition: all 0.1s ease-in-out    ;
+    transition: all 0.1s ease-in-out;
 }
-.name{
+
+.name {
     text-align: center;
- 
+
 }
-.name h1 a{
+
+.name h1 a {
     color: rgb(255, 1, 1);
     font-size: 3rem;
     font-family: cursive;
     text-decoration: none;
-  
+
 }
-.name h1 a:hover{
-    color: rgb(8, 154, 39);
+.name h1 a:hover {
+    padding: 10px;
+    border-radius: 35%;
+    opacity: 0.8;
+    background-color:  rgba(50, 49, 49, 0.758);
+    color: rgb(2, 255, 57);
     transition: 0.8s;
 }
-#about{
+
+#about {
     height: auto;
     width: 100%;
     position: relative;
     margin-bottom: 30px
 }
-#picture{
-  height: 10rem;
+
+#picture {
+    height: 10rem;
     width: 10rem;
     margin: auto;
     margin-top: -20vh;
-   
+
 }
-img{
+
+img {
     height: 100%;
     width: 100%;
     border-radius: 45%;
     border: 5px solid rgba(228, 200, 200, 0.329);
 
 }
-img:hover{
+
+img:hover {
+   
     border: 5px solid rgb(153, 92, 92);
     transition: 0.4s;
 }
-#about-person{
+
+#about-person {
     width: 80%;
     margin: auto;
     text-align: center;
