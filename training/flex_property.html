@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        #container {
+            height: 80vh;
+            width: 80vw;
+            background-color: rgb(43, 185, 233);
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        #container div {
+            height: 200px;
+            width: 200px;
+
+        }
+
+        #div1 {
+            background-color: brown;
+        }
+
+        #div2 {
+            background-color: rgb(255, 241, 41);
+        }
+
+        #div3 {
+            background-color: black;
+        }
+
+        #div4 {
+            background-color: chartreuse;
+            order: -1;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="div1">div1</div>
+        <div id="div2">div2</div>
+        <div id="div3">div3</div>
+        <div id="div4">div4</div>
+    </div>
+</body>
+
+</html>
