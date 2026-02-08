@@ -1,57 +1,94 @@
-.header-image {
-    height: 400px;
-    width: 100%;
-    background-image: url(https://wallpapercat.com/w/full/c/5/e/5823605-2920x1640-desktop-hd-boy-programmer-background-image.jpg);
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#header {
+    height: 50vh;
+    opacity: 0.9;
+    background-image: url(https://wallpapers.com/images/hd/coding-background-1cgv2uj7xyo4y38z.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
 
-
-    
-    position: fixed;
-    top: 0;
-    left: 0;
+#nav-list {
+    padding: 0px;
+    margin: 0px;
 
 }
 
-.nav-list {
-    display: inline-block;
-    color: white;
+#nav-list li {
+    display: inline;
+
+}
+
+.text-center {
     text-align: center;
-
-    text-decoration: none;
-
+    padding: 0.5rem;
 }
 
-.nav-list a {
-    font-size: large;
-    font-weight: bolder;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 10px 20px;
+#nav-list li a {
     display: inline-block;
-    transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.nav-list a:hover {
-    background-color: rgb(0, 0, 0);
-    color: rgb(43, 255, 0);
-    border-radius: 50%;
-    opacity: 0.8;
-
-}
-
-.nav-list-container {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-
-}
-/* .img{
-    position: absolute;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: cursive;
+    transition: all 0.2s ease-in-out;
+    border-radius: 20px;
+    padding: 8px;
     
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
+   
+}
+
+#nav-list li a:hover {
+    color: rgb(255, 55, 0);
+    transition: all 0.1s ease-in-out    ;
+}
+.name{
+    text-align: center;
+ 
+}
+.name h1 a{
+    color: rgb(255, 1, 1);
+    font-size: 3rem;
+    font-family: cursive;
+    text-decoration: none;
+  
+}
+.name h1 a:hover{
+    color: rgb(8, 154, 39);
+    transition: 0.8s;
+}
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px
+}
+#picture{
+  height: 10rem;
+    width: 10rem;
+    margin: auto;
+    margin-top: -20vh;
+   
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 45%;
+    border: 5px solid rgba(228, 200, 200, 0.329);
+
+}
+img:hover{
+    border: 5px solid rgb(153, 92, 92);
+    transition: 0.4s;
+}
+#about-person{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
