@@ -40,13 +40,14 @@ body {
     transition: all 0.2s ease-in-out;
     border-radius: 20px;
     padding: 8px;
-
-
+    
 }
 
 #nav-list li a:hover {
     color: rgb(255, 55, 0);
     transition: all 0.1s ease-in-out;
+    border-bottom: 2px solid wheat;
+    background-color: rgba(115, 202, 237, 0.425);
 }
 
 .name {
@@ -59,13 +60,14 @@ body {
     font-size: 3rem;
     font-family: cursive;
     text-decoration: none;
-
+    
 }
 .name h1 a:hover {
+    border-bottom: 2px solid salmon;
     padding: 10px;
     border-radius: 35%;
     opacity: 0.8;
-    background-color:  rgba(50, 49, 49, 0.758);
+    background-color:  rgb(236, 230, 50);
     color: rgb(2, 255, 57);
     transition: 0.8s;
 }
@@ -103,4 +105,63 @@ img:hover {
     width: 80%;
     margin: auto;
     text-align: center;
+}
+/* skills */
+section{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid #000; */
+    align-items: center;
+    height: 500px;
+    margin: 5px;
+
+}
+
+section:nth-child(3) {
+    background-color: rgb(243, 135, 135);
+}
+
+.section-heading {
+    
+    width: auto;
+    padding: 20px 10px 10px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+ .section-heading span{
+    font-weight: bold;
+    font-size: 40px;
+    color: #104aca;
+ }
+ /* skills */
+ .skills-display{
+   width: 75%;
+     display: flex;
+     flex-wrap: wrap;
+     /* justify-content: space-evenly; */
+ }
+ .skill-progress{
+    width: 11rem;
+    height: 2.2rem;
+    background-color: lightgray;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+    /* overflow: hidden; */
+ }
+ .skill-progress>div{
+    box-shadow: 1px 1px 5px 2px #b9b9b9 ;
+    border-radius:20px 0px 0px 20px;
+ }
+.skill-name span{
+    color: white;
+ font-size: 1rem;
+ margin-left: 20px;
+}
+/* persentage classes */
+.fifty-percent{
+    width: 50%;
+    height: inherit;
+
 }
