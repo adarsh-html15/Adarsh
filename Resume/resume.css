@@ -117,9 +117,7 @@ section{
 
 }
 
-section:nth-child(3) {
-    background-color: rgb(243, 135, 135);
-}
+
 
 .section-heading {
     
@@ -164,4 +162,23 @@ section:nth-child(3) {
     width: 50%;
     height: inherit;
 
+}
+/* experiance */
+/* timeline */
+.timeline{
+ border: 2px solid black;
+ width: 75%;
+ height: 200%;
+}
+.timeline-box{
+    border: 2px solid black;
+    height: 100px;
+    width: 40%;
+  position: relative;
+}
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+.timeline-box:nth-child(2n+1){
+    left: 9%;
 }
