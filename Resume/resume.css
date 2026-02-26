@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 18px;
     color: #d1d5d9;
 }
 
@@ -154,6 +154,10 @@ section{
 
 }
 @media screen and (max-width:480px) {
+    body{
+        font-size: 15px;
+    }
+
     #header{
         height: auto;
         min-height: 56vh;
@@ -174,7 +178,7 @@ section{
     }
 
     .name h1 a{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     section{
@@ -193,8 +197,18 @@ section{
     }
 
     #about-person p{
-        font-size: 1rem;
+        font-size: 0.95rem;
         line-height: 1.6;
+    }
+
+    .section-heading{
+        font-size: 1.5rem;
+        padding: 14px 8px 8px;
+        margin-bottom: 10px;
+    }
+
+    .section-heading span{
+        font-size: 1.5rem;
     }
 
     .timeline-devider{
@@ -268,13 +282,15 @@ section{
     .skills_display{
         grid-template-columns: 1fr;
         width: 92%;
+        gap: 0.7rem;
     }
     .skill-item{
         grid-column: span 1 !important;
-        font-size: 1.05rem;
+        font-size: 0.95rem;
+        padding: 0.75rem 0.65rem;
     }
     .skill-item i{
-        font-size: 1.2rem;
+        font-size: 1.05rem;
     }
 }
 /* experiance */
@@ -341,4 +357,34 @@ section{
 
 .contact-item a:hover{
     text-decoration: underline;
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    body{
+        font-size: 16px;
+    }
+
+    #nav-list li a{
+        font-size: 1rem;
+    }
+
+    .name h1 a{
+        font-size: 2.2rem;
+    }
+
+    .section-heading{
+        font-size: 1.9rem;
+    }
+
+    .section-heading span{
+        font-size: 1.9rem;
+    }
+
+    .footer h2{
+        font-size: 1.5rem;
+    }
+
+    .contact-item{
+        font-size: 0.95rem;
+    }
 }
