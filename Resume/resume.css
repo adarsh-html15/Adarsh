@@ -153,7 +153,50 @@ section{
     margin: 5px;
 
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
+    #header{
+        height: auto;
+        min-height: 56vh;
+        background-attachment: scroll;
+    }
+
+    #nav-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.3rem;
+        padding: 0 0.5rem;
+    }
+
+    #nav-list li a{
+        font-size: 1rem;
+        padding: 0.35rem 0.55rem;
+    }
+
+    .name h1 a{
+        font-size: 2rem;
+    }
+
+    section{
+        height: auto;
+        margin: 0.5rem 0;
+    }
+
+    #picture{
+        width: 9rem;
+        margin-top: -12vh;
+    }
+
+    #about-person{
+        width: 92%;
+        padding: 1rem;
+    }
+
+    #about-person p{
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
     .timeline-devider{
         left: 5%;   
     }
@@ -221,16 +264,17 @@ section{
 .skill-item:nth-child(5){
     grid-column: 4 / span 2;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:480px) {
     .skills_display{
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: 1fr;
+        width: 92%;
     }
     .skill-item{
         grid-column: span 1 !important;
-        font-size: 1.2rem;
+        font-size: 1.05rem;
     }
     .skill-item i{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
 /* experiance */
